@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Latihan DOM</title>
+		<style>
+			html,
+			body {
+				height: 100%;
+			}
+			body {
+				text-align: center;
+			}
+			.bg-blue {
+				background-color: blue;
+			}
+			.kotak {
+				width: 50px;
+				height: 50px;
+				margin: 50px auto 10px;
+			}
+			.merah {
+				background-color: red;
+			}
+			.hijau {
+				background-color: green;
+			}
+			.biru {
+				background-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>bermain warna</h1>
+		<button id="btn1" type="button">Muncul Warna Biru</button>
+
+		<div class="kotak merah"></div>
+		<input type="range" name="slider-merah" min="1" max="255" value="1" />
+
+		<div class="kotak hijau"></div>
+		<input type="range" name="slider-hijau" min="1" max="255" value="1" />
+
+		<div class="kotak biru"></div>
+		<input type="range" name="slider-biru" min="1" max="255" value="1" />
+
+		<script src="script.js"></script>
+	</body>
+</html>
